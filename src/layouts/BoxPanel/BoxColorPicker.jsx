@@ -15,9 +15,9 @@ export default function BoxColorPicker({inputData}) {
     <div className="mt-3 ">
       <p className="">{inputData.name}</p>
       <div className="flex mt-2">
-        <input type="text"  className="flex-grow border py-1 px-2 focus:outline-1 outline-gray-400"
+        <input type="text"  className="rounded-l flex-grow border py-1 px-2 focus:outline-1 outline-gray-400"
         value={inputData.value} onChange={handleInputs}/>
-        <input type="color" className="cursor-pointer h-[40px]"  value={inputData.value} onChange={handleInputs}/>
+        <input type="color" className="rounded-r cursor-pointer h-[40px]"  value={inputData.value} onChange={handleInputs}/>
       </div>
     </div>
   );

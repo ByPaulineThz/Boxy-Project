@@ -14,14 +14,14 @@ export default function LeftContainer() {
 
 
   return (
-    <div className='relative mt-20 w-[600px] h-[550px] border rounded-b  rounded-tr border-gray-300 shadow-xl bg-gray-50 md:mt-0'>
+    <div className='relative mt-20 w-[600px] h-[550px] border rounded-b bg-white bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-60  rounded-tr border-gray-300 shadow-xl md:mt-0'>
         <div className='flex absolute -translate-y-full -left-[1px]'>
             {tabsList.map((tab, index) => (
                 <button 
                 key={index}
                 onClick={() => setTabs(index)}
                 className='min-w-[125px] py-2 px-3 mr-4 font-bold border-t border-x border-gray-300 rounded-t
-                bg-slate-50 hover:bg-slate-200 focus:outline-none focus:ring-2 ring-inset focus:ring-blue-300 '>
+                bg-white  bg-opacity-60  hover:bg-slate-200 focus:outline-none active:bg-white'>
                     {tab.name}
                 </button>
             ))}

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@plugin "flyonui";
+@import "./node_modules/flyonui/variants.css"; /* Require only if you want to use FlyonUI JS component */
+
+@source "./node_modules/flyonui/dist/index.js"; /* Require only if you want to use FlyonUI JS component */
 
 
 /* Chrome, Safari, Edge, Opera */
@@ -27,4 +31,8 @@ input[type=number] {
 ::-webkit-scrollbar-thumb {
   border-radius: 99px;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 1);
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background: #00fd0a!important;
 }

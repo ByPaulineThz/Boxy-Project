@@ -15,7 +15,7 @@ console.log(checkboxShadow);
         onChange={() => dispatch(updateCheckbox({ name, shadowID }))}
         checked={checkboxShadow[name]}
         id={`checkbox-${name}-${shadowID}`}
-        className="h-4 w-4 border-gray-300 rounded mr-2"
+        className="h-4 w-4 border-gray-300 rounded mr-2 accent-black"
         type="checkbox"
       />
       <label

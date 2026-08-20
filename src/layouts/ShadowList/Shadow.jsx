@@ -40,9 +40,9 @@ export default function Shadow({ panelNumber, shadow }) {
   });
 
   return (
-    <li className="bg-gray-50 border-b border-gray-300">
+    <li className="bg-gray-50 border-b border-gray-300 rounded hover:rounded m-7">
       <button
-        className="px-6 py-4 flex justify-between items-center hover:bg-gray-100 w-full"
+        className="px-6 py-4 flex justify-between items-center rounded hover:bg-gray-100 w-full"
         onClick={() => setToggleShadow(!toggleShadow)}
       >
         <span>Shadow {panelNumber}</span>

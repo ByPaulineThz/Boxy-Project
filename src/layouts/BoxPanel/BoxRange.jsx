@@ -19,7 +19,7 @@ export default function BoxRange({inputData}) {
           <input type='number' 
           value={inputData.value}
           onChange={handleInputs}
-          className='w-14 h-8 mr-2 border border-gray-200 text-center'/>
+          className='w-14 h-8 mr-2 border border-gray-200 text-center rounded'/>
           <p>px</p>
         </div>
       </div>
@@ -29,7 +29,7 @@ export default function BoxRange({inputData}) {
         onChange={handleInputs}
          min={inputData.minMax[0]}
          max={inputData.minMax[1]}
-         className='w-full h-[2px] bg-gray-300 rounded-lg appearance-none cursor-pointer'
+         className='w-full h-[2px] bg-gray-300 rounded-lg appearance-none rounded cursor-pointer'
          type='range'/>
          <div className='absolute -z-10  top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-0.5 h-10 bg-gray-300 rounded'></div>
       </div>

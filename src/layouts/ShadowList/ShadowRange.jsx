@@ -24,7 +24,7 @@ export default function ShadowRange({inputData, shadowID}) {
           <input type='number' 
           value={inputData.value}
           onChange={handleInputs}
-          className='w-14 h-8 mr-2 border border-gray-200 text-center'/>
+          className='range w-14 h-8 mr-2 border border-gray-200 text-center rounded range-black'/>
           <p>px</p>
         </div>
       </div>

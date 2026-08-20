@@ -12,7 +12,7 @@ export default function BgPanel() {
 
   return (
 
-    <div className='border rounded-b border-gray-300 shadow-sm bg-gray-50 rounded-lg px-6 py-4 w-fit mx-auto mb-10 mt-0'>
+    <div className='border rounded-b shadow-xl border-gray-300 bg-white bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-60 rounded-lg px-6 py-4 w-fit mx-auto mb-10 mt-0 '>
       {bgInputs}
     </div>
   )
