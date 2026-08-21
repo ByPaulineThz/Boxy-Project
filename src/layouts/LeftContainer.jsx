@@ -14,7 +14,7 @@ export default function LeftContainer() {
 
 
   return (
-    <div className='relative mt-20 w-[600px] h-[550px] border rounded-b bg-white bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-60  rounded-tr border-gray-300 shadow-xl md:mt-0'>
+    <div className='relative z-10 mt-20  mx-2 min-w-[360px] w-[600px] h-[550px] border rounded-b bg-white bg-clip-padding backdrop-filter backdrop-blur-lg  bg-opacity-60  rounded-tr border-gray-300 shadow-xl md:mt-0'>
         <div className='flex absolute -translate-y-full -left-[1px]'>
             {tabsList.map((tab, index) => (
                 <button 

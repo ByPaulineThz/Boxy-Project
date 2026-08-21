@@ -9,7 +9,7 @@ export default function Visualization() {
   const boxProperties = useSelector((state) => state.boxProperties);
 
   return (
-    <div className="flex flex-col p-5 lg:ml-10 lg:md-28">
+    <div className="flex flex-col p-5 lg:ml-10 lg:md-28 z-10">
       <BgPanel />
       <div
         className="w-[250px] h-[250px] rounded-xel bg-white mb-1 mx-auto lg:mb-5"
